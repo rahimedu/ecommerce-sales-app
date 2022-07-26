@@ -1,0 +1,295 @@
+.productComponent{
+    color:#FFF;
+    padding: 30px 0;
+    text-align: center;
+} 
+.productComponent .title{
+    display: inline-block;
+    width: 100%;
+}
+.productComponent .title input{
+    float: right;
+    background: #000000;
+    border: 1px solid #7b7b7b;
+    padding: 3px 15px;
+    color: #8a8a8a;
+    font-weight: 600; 
+}
+@media(max-width:576px ){
+    .productComponent .title input{
+        width: 40%;
+    }
+    .productComponent .title select{
+        width: 30%;
+    }
+}
+.productComponent .title span{
+    font-weight: 700;
+    color: #c5c5c5;
+    margin:0;
+}
+.productComponent .title input:focus{
+    outline-color: #7b7b7b;
+}
+.productComponent .title select{
+    padding: 4px 10px;
+    background: transparent;
+    color: #8a8a8a;
+    margin-right: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.productComponent .title select:focus,.productComponent .title select:hover{
+    outline: none;
+}
+.productComponent .title select option:focus,.productComponent .title select option:hover{
+    outline: none;
+}
+.productComponent .title select option{
+    color:#8a8a8a;
+    background-color: #000000;
+    padding: 5px;
+    font-weight: 600;
+    border: none
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.productComponent .title .nav-tabs {
+    border-bottom: 1px solid #7b7b7b;
+}
+.productComponent .title .nav-tabs  li{
+    background: #000000;
+    color: #7b7b7b;
+    margin: 0;
+}
+.productComponent .title  .nav-tabs .nav-item a i{
+    font-size: 20px;
+}
+.productComponent .title  .nav-tabs .nav-link.active {
+    color: #fb4250;
+    background-color: transparent;
+    border:none;
+}
+.productComponent .title  .nav-tabs .nav-item a{
+    color:#7b7b7b;
+    border:none;
+}
+.productComponent .title  .nav-tabs .nav-item .nav-link:hover,
+.productComponent .title  .nav-tabs .nav-link.active:hover {
+    border:none;
+    color:red
+}
+.productComponent .grid-item{
+    padding:5px;
+}
+.productComponent .grid-item .item{
+    position: relative;
+    border: 1px solid #4c4c4c;
+    padding: 0px;
+    transition: 3s; 
+    height: 100%;
+    margin-bottom: 20px;
+}
+.productComponent .grid-item .item:hover .overlay{
+    opacity: 1;
+}
+.productComponent  .grid-item .item:hover .icon{
+    top:50%;
+    opacity: 1;
+}
+.productComponent .grid-item .item img{
+    width: 85%;
+    height: 75%;
+    object-fit: contain;  
+}
+@media (max-width:992px ){
+    .productComponent .grid-item .item img{
+        width: 60%;
+    }
+}
+.productComponent .grid-item .item .icon{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 100%;
+    opacity: 0;
+}
+.productComponent .grid-item .item .overlay{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    height: 75%;
+    top:0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: .5s ease;
+    background-color:rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+.productComponent .grid-item .item .icon button{
+    color: #FFF;
+    border: 1px solid #FFF;
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: .5s;
+    background: none;
+}
+.productComponent .grid-item .item .icon button:focus{
+    outline:none
+}
+.productComponent .grid-item .item .icon button:hover{
+    background-color:#fa4251; 
+}
+.productComponent .grid-item .item .icon button:disabled{
+    width: 80px;
+    height: 43px;
+    border-radius: 20px;
+    cursor: not-allowed;
+    font-weight: 500;
+}
+.productComponent .grid-item p{ 
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color:#727272;
+    font-weight: 600;
+}
+.productComponent.grid-item .item span{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+.rating {
+    line-height: 1;
+}
+.fa-stack {
+    height: 12px;
+    line-height: 1;
+    width: 10px;
+    margin: 3px;
+}
+.fa.fa-star-o.fa-stack-1x, .fa.fa-star.fa-stack-x {
+    color: #b2b2b2;
+}
+.fa-stack-1x, .fa-stack-x {
+    font-size: 15px;
+}
+.fa.fa-star.fa-stack-1x {
+    color: #fa4251;
+}
+.productComponent .list-item{
+    padding: 5px;
+    text-align: start;
+    margin: 25px 0 0;
+}
+.productComponent .list-item .item{
+    position: relative;
+    padding: 0px;
+    transition: 3s;
+    height: 100%;
+    margin-bottom: 20px;
+    cursor: grabbing;
+}
+.productComponent .list-item .item:hover .overlay{
+    opacity: 1;
+}
+.productComponent  .list-item .item:hover .icon{
+    top:50%;
+    opacity: 1;
+    left: 0%;
+}
+.productComponent .list-item .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media(min-width:576px) and (max-width:992px ){
+    .productComponent .list-item .item img{
+        width: 60%;
+    }
+}
+@media(max-width:576px ){
+    .productComponent .list-item .item img{
+        width: 40%;
+    }
+}
+.productComponent .list-item .item .icon{
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: 0.5s;
+    width: 0%;
+    opacity: 0;
+}
+.productComponent .list-item .item .overlay{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    background-color:rgba(0,0,0,0.7);
+}
+.productComponent .list-item .item .icon button{
+    color: #FFF;
+    border: 1px solid #FFF;
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: .5s;
+    background: none;
+    display: block;
+    margin-top: 15px;
+}
+.productComponent .list-item .item .icon button:focus{
+    outline:none
+}
+.productComponent .list-item .item .icon button:hover{
+    background-color:#fa4251; 
+}
+.productComponent .list-item .item .icon button:disabled{
+    width: 80px;
+    height: 43px;
+    border-radius: 20px;
+    cursor: not-allowed;
+    font-weight: 500;
+}
+.productComponent .list-item .body p{ 
+    font-size: 23px;
+    margin: 7px 0 0;
+    color: #727272;
+    font-weight: 700;
+}
+.productComponent .list-item .body .desc{
+    font-size: 13px;
+    color: #909090;
+    font-weight: 500; 
+}
+.productComponent .list-item  .rating {
+    line-height: 1;
+    margin: 0px 0 7px;
+}
+.productComponent.list-item .item .body span{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,108 @@
+.cartComponent{
+    color: #ccc;
+}
+.cartComponent .parent-item{
+    margin: 30px 0 0;
+}
+.cartComponent .contain{
+    overflow-x: scroll;
+}
+.cartComponent .contain table{
+    text-align: center;
+    width: 100%;
+}
+.cartComponent .contain th{
+    border: 1px solid #727272;
+    padding: 5px;
+    font-size: 19px; 
+    text-transform: uppercase;
+}
+.cartComponent .contain td{
+    border: 1px solid #727272;
+    padding: 0;
+}
+.cartComponent .contain img{
+    width: 80px;
+}
+.cartComponent .contain form input{
+    border: none;
+    padding: 5px;
+}
+.cartComponent .contain form input:focus{
+    outline: none;
+}
+.cartComponent .contain form button{
+    padding: 5px 15px;
+    border: none;
+    background: #424242;
+    color: #FFF;
+    transition: 0.5s;
+}
+.cartComponent .contain form button:hover{
+    background-color: #fa4251;
+}
+.cartComponent .contain .icon{
+    font-size: 25px;
+    cursor: pointer;   
+    transition: 0.5s;
+}
+.cartComponent .contain .icon:hover{
+    color: #fa4251; 
+}
+.cartComponent h4 span{
+    color:#FFF;
+    font-size: 25px;
+}
+.cartComponent .totalPrice{
+    text-align: center;
+}
+.cartComponent .totalPrice .item{
+    margin: 15px 0 0;
+}
+.cartComponent .totalPrice .item table{
+    width:100%;
+}
+.cartComponent .totalPrice .item table th{
+    border: 1px solid #727272;
+}
+.cartComponent .totalPrice .item table td{
+    border: 1px solid #727272;
+}
+.cartComponent .totalSalary h3{
+    text-transform: uppercase;
+}
+.cartComponent .totalSalary h3 span{
+    color: #FFF;
+    font-size: 30px;
+}
+.cartComponent .totalSalary button{
+    padding: 5px 15px;
+    border: none;
+    background: #424242;
+    color: #FFF;
+    transition: 0.5s;
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.cartComponent .totalSalary button:hover{
+    background-color: #fa4251;
+}
+.cartComponent .totalSalary button:focus{
+    outline: none;
+}
+.cartComponent .totalSalary button:active{
+    outline:none
+}
+.cartComponent .noProduct{
+    text-align: center;
+}
+ .cartComponent .noProduct h4{  
+    padding: 20px 25px;
+    color: #fff;
+    background: #424242;
+    display: inline-block;
+    margin: 30px 0;
+    text-transform: uppercase;
+}

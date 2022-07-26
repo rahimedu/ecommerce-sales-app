@@ -1,0 +1,53 @@
+.navbar .cart i{
+    font-size: 28px;
+    color: #FFF;
+} 
+.navbar .cart .quentity{
+    color: #fff;
+    background-color: #fb4250;
+    position: absolute;
+    top: -8px;
+    right: 0;
+}
+.navbar .cart {
+    cursor: pointer;
+    position: relative;
+    width: 33px;
+    margin-top: 7px ;
+}
+@media (max-width:991px ){
+    .navbar .cart {
+        margin: 16px 0;
+    }
+    .navbar a{
+        margin-top: 10px;
+    }
+}
+.navbar .bb{
+    font-size: 25px;
+    margin: 0 25px 0 10px;
+}
+.navbar .asd{
+    width: 100%;
+    background-color: green;
+}
+.navbar .bb:hover{
+    color:#FFF;
+}
+.navbar span{
+    color:#fb4250;
+}
+.navbar a{
+    color: #FFF;
+    margin-right: 12px;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: none;
+    color:#fb4250;
+}
+.navbar .active{
+    color:#fb4250;
+}

@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+.ProductDetailID{
+    padding: 30px 0;
+    color:#FFF;
+}
+.ProductDetailID img{
+    width:100%;
+    object-fit:contain
+} 
+@media (max-width:576px){
+    .ProductDetailID .img1{
+        display: none;
+    }
+    .ProductDetailID .img2{
+        display: none;
+    }
+    .ProductDetailID img {
+        width: 60%;
+    }
+    .ProductDetailID .title h1 {
+        font-size: 30px;
+    }
+}
+.ProductDetailID .img1{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.ProductDetailID .img2{
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(40%);
+}
+.ProductDetailID .title h1{
+    color: #ccc;
+}
+.ProductDetailID .title hr{
+    background-color: #727272;
+}
+.ProductDetailID .title p{
+    margin: 6px 0 ;
+    font-weight: bold;
+}
+.ProductDetailID .rating {
+    line-height: 1;
+}
+.ProductDetailID .fa-stack {
+    height: 12px;
+    line-height: 1;
+    width: 10px;
+    margin: 3px;
+}
+.ProductDetailID .fa.fa-star-o.fa-stack-1x, .ProductDetailID .fa.fa-star.fa-stack-x {
+    color: #b2b2b2;
+}
+.ProductDetailID .fa-stack-1x,.ProductDetailID .fa-stack-x {
+    font-size: 15px;
+}
+.ProductDetailID .fa.fa-star.fa-stack-1x {
+    color: #fa4251;
+}
+.ProductDetailID .desc{ 
+    color:#a5a5a5;
+}
+.ProductDetailID .quantity p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.ProductDetailID .quantity span{
+    color: #a5a5a5;
+    font-size: 18px;
+    font-weight: 700;   
+}
+.ProductDetailID .quantity button{
+    padding: 6px 15px;
+    border: none;
+    background: #424242;
+    color: #FFF;
+    transition: 0.5s;
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.ProductDetailID .quantity button:hover{
+    background-color: #fa4251;
+}
+.ProductDetailID .quantity button:focus{
+    outline: none;
+}
+.ProductDetailID .quantity button:disabled{
+    cursor: not-allowed;
+}
+.ProductDetailID .quantity input{
+    border: none;
+    margin: 5px 0;
+    padding: 7px 20px;
+}
+.ProductDetailID .quantity input:focus{
+    outline: none;
+}
+.ProductDetailID .comments  .comment{
+    width: 100%;
+}
+.ProductDetailID .comments  .comment div{
+    margin: 10px 0;
+    width: 100%;
+    height: 95px;
+    border-bottom: 1px solid #b7b7b7;
+}
+.ProductDetailID .comments  .comment img{
+    width:85px;
+    float: left;
+    margin: 0PX 12px 0 0;
+}
+.ProductDetailID .comments  .comment span{
+    font-size: 15px;
+    color: #e2e2e2;
+}
+.ProductDetailID .comments .comment h4{
+    margin: 0;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.ProductDetailID .comments  .comment p{
+    color: #b7b7b7;
+    font-size: 14px;
+}
+.ProductDetailID .comments .formAdd input{
+    width: 48%;
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    border: none;
+    padding: 8px;
+} 
+.ProductDetailID .comments .formAdd input:focus{
+    outline: none;
+}
+.ProductDetailID .comments .formAdd textarea{
+    width: 97.5%;
+    padding: 8px;
+}
+.ProductDetailID .comments .formAdd textarea:focus{
+    outline: none;
+}
+.ProductDetailID .comments .formAdd button{
+    padding: 6px 15px;
+    border: none;
+    background: #424242;
+    color: #FFF;
+    transition: 0.5s;
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px;
+}
+.ProductDetailID .comments .formAdd button:hover{
+    background-color: #fa4251;
+}
+.ProductDetailID .comments .formAdd button:focus{
+    outline: none;
+}
