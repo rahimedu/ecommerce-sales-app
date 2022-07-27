@@ -1,7 +1,7 @@
 import React from 'react';
 import NavComponent from './Pages/Navbar';
 import Cart from './Pages/cart'
-
+import Product from './Pages/product'
 import productDetails from './Pages/productDetails'
 import Home from './Pages/home' 
 import NotFound from './Pages/nofound'
