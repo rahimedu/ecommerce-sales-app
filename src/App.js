@@ -1,4 +1,4 @@
-import React from 'react';
+
 import NavComponent from './Pages/Navbar';
 import Cart from './Pages/cart'
 import Product from './Pages/product'
